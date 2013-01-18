@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3138EBD166BD875001C22FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3138EBC166BD875001C22FD /* Cocoa.framework */; };
 		B3138EC7166BD875001C22FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3138EC5166BD875001C22FD /* InfoPlist.strings */; };
 		B3138EC9166BD875001C22FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3138EC8166BD875001C22FD /* main.m */; };
 		B3138ECD166BD875001C22FD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B3138ECB166BD875001C22FD /* Credits.rtf */; };
@@ -17,6 +16,26 @@
 		B3138EDC166BD876001C22FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3138EBC166BD875001C22FD /* Cocoa.framework */; };
 		B3138EE4166BD876001C22FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3138EE2166BD876001C22FD /* InfoPlist.strings */; };
 		B3138EE7166BD876001C22FD /* RdioMiniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3138EE6166BD876001C22FD /* RdioMiniTests.m */; };
+		B3138EF2166BE2BC001C22FD /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3138EF1166BE2BC001C22FD /* ScriptingBridge.framework */; };
+		B3138F14166C2CA8001C22FD /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3138F12166C2CA8001C22FD /* WindowController.m */; };
+		B3138F15166C2CA8001C22FD /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3138F13166C2CA8001C22FD /* WindowController.xib */; };
+		B3138F22166C4996001C22FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3138EBC166BD875001C22FD /* Cocoa.framework */; };
+		B371AB59167076CA00B02A0C /* next_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB4E167076CA00B02A0C /* next_blue.png */; };
+		B371AB5A167076CA00B02A0C /* next_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB4F167076CA00B02A0C /* next_grey.png */; };
+		B371AB5B167076CA00B02A0C /* pause_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB50167076CA00B02A0C /* pause_blue.png */; };
+		B371AB5C167076CA00B02A0C /* pause_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB51167076CA00B02A0C /* pause_grey.png */; };
+		B371AB5D167076CA00B02A0C /* prev_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB52167076CA00B02A0C /* prev_blue.png */; };
+		B371AB5E167076CA00B02A0C /* prev_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB53167076CA00B02A0C /* prev_grey.png */; };
+		B371AB5F167076CA00B02A0C /* rdio_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB54167076CA00B02A0C /* rdio_logo.png */; };
+		B371AB60167076CA00B02A0C /* repeat_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB55167076CA00B02A0C /* repeat_blue.png */; };
+		B371AB61167076CA00B02A0C /* repeat_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB56167076CA00B02A0C /* repeat_grey.png */; };
+		B371AB62167076CA00B02A0C /* shuffle_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB57167076CA00B02A0C /* shuffle_blue.png */; };
+		B371AB63167076CA00B02A0C /* shuffle_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB58167076CA00B02A0C /* shuffle_grey.png */; };
+		B371AB91167076DA00B02A0C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B371AB66167076DA00B02A0C /* .gitignore */; };
+		B371AB92167076DA00B02A0C /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B371AB68167076DA00B02A0C /* INAppStoreWindow.m */; };
+		B371AB93167076DA00B02A0C /* INAppStoreWindow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B371AB69167076DA00B02A0C /* INAppStoreWindow.podspec */; };
+		B371AB94167076DA00B02A0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B371AB6A167076DA00B02A0C /* README.md */; };
+		B3AFB8EA166DF57A008DE8D9 /* Rdio Blue.icns in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB8E9166DF57A008DE8D9 /* Rdio Blue.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +68,29 @@
 		B3138EE3166BD876001C22FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3138EE5166BD876001C22FD /* RdioMiniTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RdioMiniTests.h; sourceTree = "<group>"; };
 		B3138EE6166BD876001C22FD /* RdioMiniTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RdioMiniTests.m; sourceTree = "<group>"; };
+		B3138EF0166BD88D001C22FD /* Rdio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rdio.h; sourceTree = "<group>"; };
+		B3138EF1166BE2BC001C22FD /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		B3138F11166C2CA8001C22FD /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		B3138F12166C2CA8001C22FD /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		B3138F13166C2CA8001C22FD /* WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
+		B3138F20166C493C001C22FD /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		B371AB4E167076CA00B02A0C /* next_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_blue.png; sourceTree = "<group>"; };
+		B371AB4F167076CA00B02A0C /* next_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_grey.png; sourceTree = "<group>"; };
+		B371AB50167076CA00B02A0C /* pause_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_blue.png; sourceTree = "<group>"; };
+		B371AB51167076CA00B02A0C /* pause_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_grey.png; sourceTree = "<group>"; };
+		B371AB52167076CA00B02A0C /* prev_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev_blue.png; sourceTree = "<group>"; };
+		B371AB53167076CA00B02A0C /* prev_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev_grey.png; sourceTree = "<group>"; };
+		B371AB54167076CA00B02A0C /* rdio_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rdio_logo.png; sourceTree = "<group>"; };
+		B371AB55167076CA00B02A0C /* repeat_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeat_blue.png; sourceTree = "<group>"; };
+		B371AB56167076CA00B02A0C /* repeat_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeat_grey.png; sourceTree = "<group>"; };
+		B371AB57167076CA00B02A0C /* shuffle_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle_blue.png; sourceTree = "<group>"; };
+		B371AB58167076CA00B02A0C /* shuffle_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle_grey.png; sourceTree = "<group>"; };
+		B371AB66167076DA00B02A0C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B371AB67167076DA00B02A0C /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
+		B371AB68167076DA00B02A0C /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
+		B371AB69167076DA00B02A0C /* INAppStoreWindow.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INAppStoreWindow.podspec; sourceTree = "<group>"; };
+		B371AB6A167076DA00B02A0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B3AFB8E9166DF57A008DE8D9 /* Rdio Blue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Rdio Blue.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3138EBD166BD875001C22FD /* Cocoa.framework in Frameworks */,
+				B3138F22166C4996001C22FD /* Cocoa.framework in Frameworks */,
+				B3138EF2166BE2BC001C22FD /* ScriptingBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +118,10 @@
 		B3138EAD166BD875001C22FD = {
 			isa = PBXGroup;
 			children = (
+				B3AFB8E9166DF57A008DE8D9 /* Rdio Blue.icns */,
+				B3138F20166C493C001C22FD /* libcrypto.dylib */,
+				B3138EF1166BE2BC001C22FD /* ScriptingBridge.framework */,
+				B371AB65167076DA00B02A0C /* INAppStoreWindow */,
 				B3138EC2166BD875001C22FD /* RdioMini */,
 				B3138EDF166BD876001C22FD /* RdioMiniTests */,
 				B3138EBB166BD875001C22FD /* Frameworks */,
@@ -114,10 +161,15 @@
 		B3138EC2166BD875001C22FD /* RdioMini */ = {
 			isa = PBXGroup;
 			children = (
+				B371AB4D167076CA00B02A0C /* images */,
+				B3138EF0166BD88D001C22FD /* Rdio.h */,
 				B3138ECE166BD875001C22FD /* AppDelegate.h */,
 				B3138ECF166BD875001C22FD /* AppDelegate.m */,
 				B3138ED1166BD876001C22FD /* MainMenu.xib */,
 				B3138EC3166BD875001C22FD /* Supporting Files */,
+				B3138F11166C2CA8001C22FD /* WindowController.h */,
+				B3138F12166C2CA8001C22FD /* WindowController.m */,
+				B3138F13166C2CA8001C22FD /* WindowController.xib */,
 			);
 			path = RdioMini;
 			sourceTree = "<group>";
@@ -151,6 +203,37 @@
 				B3138EE2166BD876001C22FD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B371AB4D167076CA00B02A0C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B371AB4E167076CA00B02A0C /* next_blue.png */,
+				B371AB4F167076CA00B02A0C /* next_grey.png */,
+				B371AB50167076CA00B02A0C /* pause_blue.png */,
+				B371AB51167076CA00B02A0C /* pause_grey.png */,
+				B371AB52167076CA00B02A0C /* prev_blue.png */,
+				B371AB53167076CA00B02A0C /* prev_grey.png */,
+				B371AB54167076CA00B02A0C /* rdio_logo.png */,
+				B371AB55167076CA00B02A0C /* repeat_blue.png */,
+				B371AB56167076CA00B02A0C /* repeat_grey.png */,
+				B371AB57167076CA00B02A0C /* shuffle_blue.png */,
+				B371AB58167076CA00B02A0C /* shuffle_grey.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B371AB65167076DA00B02A0C /* INAppStoreWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B371AB66167076DA00B02A0C /* .gitignore */,
+				B371AB67167076DA00B02A0C /* INAppStoreWindow.h */,
+				B371AB68167076DA00B02A0C /* INAppStoreWindow.m */,
+				B371AB69167076DA00B02A0C /* INAppStoreWindow.podspec */,
+				B371AB6A167076DA00B02A0C /* README.md */,
+			);
+			name = INAppStoreWindow;
+			path = RdioMini/INAppStoreWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +310,22 @@
 				B3138EC7166BD875001C22FD /* InfoPlist.strings in Resources */,
 				B3138ECD166BD875001C22FD /* Credits.rtf in Resources */,
 				B3138ED3166BD876001C22FD /* MainMenu.xib in Resources */,
+				B3138F15166C2CA8001C22FD /* WindowController.xib in Resources */,
+				B3AFB8EA166DF57A008DE8D9 /* Rdio Blue.icns in Resources */,
+				B371AB59167076CA00B02A0C /* next_blue.png in Resources */,
+				B371AB5A167076CA00B02A0C /* next_grey.png in Resources */,
+				B371AB5B167076CA00B02A0C /* pause_blue.png in Resources */,
+				B371AB5C167076CA00B02A0C /* pause_grey.png in Resources */,
+				B371AB5D167076CA00B02A0C /* prev_blue.png in Resources */,
+				B371AB5E167076CA00B02A0C /* prev_grey.png in Resources */,
+				B371AB5F167076CA00B02A0C /* rdio_logo.png in Resources */,
+				B371AB60167076CA00B02A0C /* repeat_blue.png in Resources */,
+				B371AB61167076CA00B02A0C /* repeat_grey.png in Resources */,
+				B371AB62167076CA00B02A0C /* shuffle_blue.png in Resources */,
+				B371AB63167076CA00B02A0C /* shuffle_grey.png in Resources */,
+				B371AB91167076DA00B02A0C /* .gitignore in Resources */,
+				B371AB93167076DA00B02A0C /* INAppStoreWindow.podspec in Resources */,
+				B371AB94167076DA00B02A0C /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +362,8 @@
 			files = (
 				B3138EC9166BD875001C22FD /* main.m in Sources */,
 				B3138ED0166BD875001C22FD /* AppDelegate.m in Sources */,
+				B3138F14166C2CA8001C22FD /* WindowController.m in Sources */,
+				B371AB92167076DA00B02A0C /* INAppStoreWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +547,7 @@
 				B3138EEC166BD876001C22FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3138EED166BD876001C22FD /* Build configuration list for PBXNativeTarget "RdioMiniTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +556,7 @@
 				B3138EEF166BD876001C22FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
