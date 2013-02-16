@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7366E85816CCAB5300CE1F52 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7366E85116CCAB5300CE1F52 /* INAppStoreWindow.m */; };
+		7366E85916CCAB5300CE1F52 /* INAppStoreWindow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7366E85216CCAB5300CE1F52 /* INAppStoreWindow.podspec */; };
+		7366E85A16CCAB5300CE1F52 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7366E85416CCAB5300CE1F52 /* INWindowButton.m */; };
+		7366E85B16CCAB5300CE1F52 /* NSColor+INAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7366E85616CCAB5300CE1F52 /* NSColor+INAdditions.m */; };
+		7366E85C16CCAB5300CE1F52 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7366E85716CCAB5300CE1F52 /* README.md */; };
 		B3138EC7166BD875001C22FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3138EC5166BD875001C22FD /* InfoPlist.strings */; };
 		B3138EC9166BD875001C22FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3138EC8166BD875001C22FD /* main.m */; };
 		B3138ECD166BD875001C22FD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B3138ECB166BD875001C22FD /* Credits.rtf */; };
@@ -31,10 +36,6 @@
 		B371AB61167076CA00B02A0C /* repeat_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB56167076CA00B02A0C /* repeat_grey.png */; };
 		B371AB62167076CA00B02A0C /* shuffle_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB57167076CA00B02A0C /* shuffle_blue.png */; };
 		B371AB63167076CA00B02A0C /* shuffle_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = B371AB58167076CA00B02A0C /* shuffle_grey.png */; };
-		B371AB91167076DA00B02A0C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B371AB66167076DA00B02A0C /* .gitignore */; };
-		B371AB92167076DA00B02A0C /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B371AB68167076DA00B02A0C /* INAppStoreWindow.m */; };
-		B371AB93167076DA00B02A0C /* INAppStoreWindow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B371AB69167076DA00B02A0C /* INAppStoreWindow.podspec */; };
-		B371AB94167076DA00B02A0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B371AB6A167076DA00B02A0C /* README.md */; };
 		B3AFB8EA166DF57A008DE8D9 /* Rdio Blue.icns in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB8E9166DF57A008DE8D9 /* Rdio Blue.icns */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7366E85016CCAB5300CE1F52 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INAppStoreWindow.h; path = INAppStoreWindow/INAppStoreWindow.h; sourceTree = SOURCE_ROOT; };
+		7366E85116CCAB5300CE1F52 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INAppStoreWindow.m; path = INAppStoreWindow/INAppStoreWindow.m; sourceTree = SOURCE_ROOT; };
+		7366E85216CCAB5300CE1F52 /* INAppStoreWindow.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = INAppStoreWindow.podspec; path = INAppStoreWindow/INAppStoreWindow.podspec; sourceTree = SOURCE_ROOT; };
+		7366E85316CCAB5300CE1F52 /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INWindowButton.h; path = INAppStoreWindow/INWindowButton.h; sourceTree = SOURCE_ROOT; };
+		7366E85416CCAB5300CE1F52 /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INWindowButton.m; path = INAppStoreWindow/INWindowButton.m; sourceTree = SOURCE_ROOT; };
+		7366E85516CCAB5300CE1F52 /* NSColor+INAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+INAdditions.h"; path = "INAppStoreWindow/NSColor+INAdditions.h"; sourceTree = SOURCE_ROOT; };
+		7366E85616CCAB5300CE1F52 /* NSColor+INAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+INAdditions.m"; path = "INAppStoreWindow/NSColor+INAdditions.m"; sourceTree = SOURCE_ROOT; };
+		7366E85716CCAB5300CE1F52 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = INAppStoreWindow/README.md; sourceTree = SOURCE_ROOT; };
 		B3138EB8166BD875001C22FD /* RdioMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RdioMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3138EBC166BD875001C22FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B3138EBF166BD875001C22FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -85,11 +94,6 @@
 		B371AB56167076CA00B02A0C /* repeat_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeat_grey.png; sourceTree = "<group>"; };
 		B371AB57167076CA00B02A0C /* shuffle_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle_blue.png; sourceTree = "<group>"; };
 		B371AB58167076CA00B02A0C /* shuffle_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle_grey.png; sourceTree = "<group>"; };
-		B371AB66167076DA00B02A0C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		B371AB67167076DA00B02A0C /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
-		B371AB68167076DA00B02A0C /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
-		B371AB69167076DA00B02A0C /* INAppStoreWindow.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INAppStoreWindow.podspec; sourceTree = "<group>"; };
-		B371AB6A167076DA00B02A0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		B3AFB8E9166DF57A008DE8D9 /* Rdio Blue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Rdio Blue.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -226,11 +230,14 @@
 		B371AB65167076DA00B02A0C /* INAppStoreWindow */ = {
 			isa = PBXGroup;
 			children = (
-				B371AB66167076DA00B02A0C /* .gitignore */,
-				B371AB67167076DA00B02A0C /* INAppStoreWindow.h */,
-				B371AB68167076DA00B02A0C /* INAppStoreWindow.m */,
-				B371AB69167076DA00B02A0C /* INAppStoreWindow.podspec */,
-				B371AB6A167076DA00B02A0C /* README.md */,
+				7366E85016CCAB5300CE1F52 /* INAppStoreWindow.h */,
+				7366E85116CCAB5300CE1F52 /* INAppStoreWindow.m */,
+				7366E85216CCAB5300CE1F52 /* INAppStoreWindow.podspec */,
+				7366E85316CCAB5300CE1F52 /* INWindowButton.h */,
+				7366E85416CCAB5300CE1F52 /* INWindowButton.m */,
+				7366E85516CCAB5300CE1F52 /* NSColor+INAdditions.h */,
+				7366E85616CCAB5300CE1F52 /* NSColor+INAdditions.m */,
+				7366E85716CCAB5300CE1F52 /* README.md */,
 			);
 			name = INAppStoreWindow;
 			path = RdioMini/INAppStoreWindow;
@@ -323,9 +330,8 @@
 				B371AB61167076CA00B02A0C /* repeat_grey.png in Resources */,
 				B371AB62167076CA00B02A0C /* shuffle_blue.png in Resources */,
 				B371AB63167076CA00B02A0C /* shuffle_grey.png in Resources */,
-				B371AB91167076DA00B02A0C /* .gitignore in Resources */,
-				B371AB93167076DA00B02A0C /* INAppStoreWindow.podspec in Resources */,
-				B371AB94167076DA00B02A0C /* README.md in Resources */,
+				7366E85916CCAB5300CE1F52 /* INAppStoreWindow.podspec in Resources */,
+				7366E85C16CCAB5300CE1F52 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +369,9 @@
 				B3138EC9166BD875001C22FD /* main.m in Sources */,
 				B3138ED0166BD875001C22FD /* AppDelegate.m in Sources */,
 				B3138F14166C2CA8001C22FD /* WindowController.m in Sources */,
-				B371AB92167076DA00B02A0C /* INAppStoreWindow.m in Sources */,
+				7366E85816CCAB5300CE1F52 /* INAppStoreWindow.m in Sources */,
+				7366E85A16CCAB5300CE1F52 /* INWindowButton.m in Sources */,
+				7366E85B16CCAB5300CE1F52 /* NSColor+INAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
